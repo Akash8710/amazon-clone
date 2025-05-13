@@ -222,5 +222,14 @@ nav{
 .product-card h4{
     color: #525252;
     font-size: 15px;
-    font-weight: 40;
+    font-weight: 400;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 20px 60px;
 }
