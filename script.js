@@ -25,14 +25,14 @@ next_btn.addEventListener('click',(e)=>{
     if(n < imgs.length -1){
         n++;
     }else{
-        n =0;
+        n = 0;
     }
     changeSlide();
 });
 
-const scrollContainer = doucument.querySelectorAll('.products');
+const scrollContainer = doucument.querySelectorAll('products');
 for(const item of scrollContainer){
-    item.addEventListener('wheel',(evt)=>{
+    item.addEventListener('Wheel',(evt)=>{
         evt.preventDefault();
         item.scrollLeft += evt.deltaY;
     });
